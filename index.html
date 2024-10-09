@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Facebook</title>
+</head>
+<body>
+    
+     <div class="status-box">
+        <h1>Facebook</h1>
+        <div class="user-profile">
+                <img class="logo" src="foto.jpg" alt="sua foto" width="100px">
+                <input id="postContent" placeholder="No que você está pensando ?"></input>
+        </div>
+            
+<div class="options">
+
+<div class="option">
+        <img src="file.png" alt="live" width="50" class="option-icon">
+        <p>Video ao Vivo</p>
+</div>
+
+<div class="option" onclick="document.getElementById('postImage').click();">
+        <img  src="file2.png" alt="camera" width="50" class="foto" class="option-icon">
+        <p>Foto/video</p>
+      <input type="file" id="postImage" accept="imagem/*" style="display: none;" onchange="atualizarimagem()">
+</div>
+
+<div id="ImagePreview" class="image-preview"></div>
+
+<div class="option">
+        <img  src="file (1).png" alt="estrelinha" width="50" class="option-icon">
+        <p>Sentimento/atividade</p>
+</div>
+
+</div>
+<button onclick="post()">Publicar</button>
+<div id="feed">
+</div>
+</div>
+
+     
+</div>
+    
+
+   
+   
+   <script src="script.js"></script>
+</body>
+</html>

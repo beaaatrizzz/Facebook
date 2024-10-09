@@ -1,0 +1,124 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: blue;
+}
+
+.logo{
+    border-radius: 60px;
+}
+
+.status-box{
+    width: 500px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow:  0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#postContent{
+    width: 90%;
+    border-radius: 15px;
+    border:none;
+    height: 30%;
+    padding: 15px;
+    background-color: #ddcdcd;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+#postContent:hover{
+    background-color: #A9A9A9;
+}
+
+.user-profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.status-input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    resize: none;
+    height: 60px;
+    font-size: 16px;
+}
+.options{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #155bc0;
+    
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.option-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.option span{
+    font-size: 14px;
+    color: #65676b;
+}
+
+.post{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative; /*posicionar o botão corretamente*/
+}
+
+
+button{
+    width: 100%;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #155bc0;
+}
+
+.delete-button{
+    background-color: #cccccc;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    width: 50%;
+    position: absolute;  /*posiciona no canto superior direito */
+    top: 10px; /*distância do topo*/
+    right: 10px; /*distância da direita*/
+    cursor: pointer;
+}

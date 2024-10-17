@@ -122,3 +122,7 @@ button:hover{
     right: 10px; /*distância da direita*/
     cursor: pointer;
 }
+
+.reaction {
+    cursor: pointer;
+}
